@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#www.pythonchallenge.com/pc/def/channel.html
+
 import zipfile,re
 zipcode="90052"
 obj = zipfile.ZipFile("channel.zip", "r")
