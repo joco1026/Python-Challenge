@@ -6,5 +6,5 @@
 import re
 
 text = open('gibberish.txt', 'r').read()
-#this print syntax prints each item in the list with no deliminator
+#this print syntax prints each regex match, with no deliminator
 print ''.join(re.findall('[^A-Z][A-Z]{3}([a-z])[A-Z]{3}[^A-Z]', text))
