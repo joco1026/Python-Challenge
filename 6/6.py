@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 #www.pythonchallenge.com/pc/def/channel.html
+#NOT COMPLETED
 
 import zipfile,re
 zipcode="90052"
